@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(../assets/fonts/BebasNeue-Regular.ttf);
+}
+
+
+h1,h2,h3,h4,h5,h6,p, .navbar {
+    font-family: BebasNeu, sans-serif;
+}
+
+h1 {
+font-family: Rakkas;
+font-size: 40px;
+}
+
+
+/*
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-weight: bold;
+}
+*/
+
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid #F54F01 ;
+}
+
+/*fin configuración Navbar Bootsrap*/
+
+/*configurar estilos carousel*/
+
+
+.carousel-item img{
+    border-radius: 10px;
+}
+
+.carousel-indicators img{
+    width: 70px;
+    display: block;
+}
+.carousel-indicators button{
+    width: max-content!important;
+}
+.carousel-indicators{
+    position: unset;
+}
+.carousel-indicators button.active img{
+    border: 2px solid #F54F01;
+}
+
+.container h1{
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+
+/*fin config carousel*/
+
+/*
+
+.container h1{
+    margin-top: 20px;
+}
+
+.principal img{
+    margin-top: 40px;
+}
+
+footer{
+    width: 100%;
+    padding:30px 30px 20px;
+}
+
+.contactos {
+text-align: center;
+}
+
+.derechos {
+text-align: center;
+}
+*/
+
+/*Aquí va el Footer con Bootstrap */
+.footer-top {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #D9D9D9;
+}
+
+.footer-top a {
+    color: black;
+}
+
+.footer-top a:hover {
+    color: #F54F01;
+}
+
+.footer-top h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.social-icons a {
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+
+
+
+.catalogo {
+    background-color: #D9D9D9;
+}
+
+/*
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.catalogo img{
+    width: 270px;
+    height: 200px;
+}
+
+.contenedor img{
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.contenedor>div{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color:#D9D9D9;
+    border-radius: 20px;
+    max-width: 270px;
+}
+
+.contenedor>div:hover{
+    background-color: #F54F01;
+}
+
+.informacion{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.informacion>p:first-child{
+    font-family: BebasNeu;
+    font-size: 1rem;
+    padding: 0px 0px 0px 10px;
+}
+
+.precio{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: BebasNeu;
+}
+
+.informacion button{
+    background-color: #F54F01;
+    height: 20px;
+    width: 80px;
+    font-family: BebasNeu;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+}
+
+*/
+
+/* Aquí va config de cards*/
+.card-img-top{
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+    font-weight: bold;    
+}
+
+
+.botoncatalogo{
+    background-color: #F54F01;
+    height: 25px;
+    width: 100px;
+    font-family: BebasNeu;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+}
+
+.card:hover {
+    background-color: #F54F01;
+    transform: scale(1.15);
+}
+
+
+
+
+/*quienes somos
+.quienessomos {
+    background-color: #EEF5F8;
+}
+
+.cuadrantes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.cuadrantes>div {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.cuadrante1 {
+    margin: 40px 40px;
+}
+
+.cuadrante1 h2{
+    font-size: 2rem;
+    font-family: BebasNeu;
+    font-weight: bold;
+    color: #4301A1;
+    text-align: end;
+    margin-top: 80px;
+}
+
+.cuadrante1 p{
+    font-size: 1.3rem;
+    font-family: BebasNeu;
+    color: black;
+    text-align:end;
+}
+
+
+.cuadrante2 {
+    margin: 40px 40px;
+}
+
+.cuadrante2 h2{
+    font-size: 2rem;
+    font-family: BebasNeu;
+    font-weight: bold;
+    color: #4301A1;
+    text-align: start;
+    margin-top: 80px;
+}
+
+.cuadrante2 p{
+    font-size: 1.3rem;
+    font-family: BebasNeu;
+    color: black;
+    text-align:start;
+}
+
+.cuadrante1 img{
+    float: left;
+    border-radius: 10px;
+}
+
+.cuadrante2 img{
+    float: right;
+    border-radius: 10px;
+}
+
+*/
+
+/*Formulario
+
+.formulario-registro{
+    width: 400px;
+    background: #f54e0197;
+    padding: 20px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 4px;
+    font-family: BebasNeu;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.formulario-registro h3{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.controles {
+    width: 100%;
+    background-color: #f54e013e;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    font-family: BebasNeu;
+    font-size: 1rem;
+}
+
+.formulario-registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: BebasNeu;
+}
+
+.formulario-registro a{
+    color: white;
+    text-decoration: none;
+}
+
+.formulario-registro a:hover{
+    text-decoration: underline;
+}
+
+.formulario-registro .button{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px white solid;
+    color: white;
+    background-color: #f54e01a9;
+    font-size: 1.2rem;
+}
+*/
+
+/*formulario con Bootstrap*/
+form input.form-control {
+    height: 50px;
+}
+
+form .form-control {
+    border: transparent;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.02);
+}
+
+#contact {
+    background-color: white;
+}
+
+#contact button{
+    background-color: #F54F01;
+    color: #EEF5F8;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-color: white;
+}
+
+
+/* blog anterior
+
+.blog {
+    background-color: #D9D9D9;
+}
+
+.blogs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.blogs>div {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.blogs>div{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
+    background-color:#D9D9D9;
+    border-radius: 0px;
+    max-width: 500px;
+}
+
+.blog1 {
+    margin: 40px 40px;
+}
+
+.blog1 h4{
+    font-size: 1.5rem;
+    font-family: Rakkas;
+    font-weight: bold;
+    color:#4301A1;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.blog1 p{
+    font-size: 1.2rem;
+    font-family: BebasNeu;
+    color: black;
+    text-align:start;
+}
+
+.blog2 {
+    margin: 40px 40px;
+}
+
+.blog2 h4{
+    font-size: 1.5rem;
+    font-family: Rakkas;
+    font-weight: bold;
+    color:#F54F01;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.blog2 p{
+    font-size: 1.2rem;
+    font-family: BebasNeu;
+    color: black;
+    text-align:start;
+}
+
+*/
+
+/* Blog Responsive*/
+
+.blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid white;
+}
+
+.blog-encabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-encabezado span{
+    color: #F54F01;
+    font-size: 20px;
+}
+
+.blog-encabezado h1{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.blog-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.caja1{
+    width: 500px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+
+.caja1 iframe{
+    width: 500px;
+}
+.caja2 iframe{
+    width: 500px;
+}
+
+.caja1 h2{
+    font-size: 30px;
+    color: #4301A1;
+    font-weight: bold;
+    font-family: Rakkas;
+    text-align: center;
+}
+
+.caja2{
+    width: 500px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+
+.caja2 h2{
+    font-size: 30px;
+    color: #F54F01;
+    font-weight: bold;
+    font-family: Rakkas;
+    text-align: center;
+}
+
+@media(max-width:500px){
+    .caja1 {
+        width: 300px;
+    }
+    .caja1 iframe {
+        width: 300px;
+    }
+}
+
+@media(max-width:500px){
+    .caja2 {
+        width: 300px;
+    }
+    .caja2 iframe {
+        width: 300px;
+    }
+}
+
+/*quienessomos*/
+.quienessomos p {
+    font-size: 1rem;
+}
+
