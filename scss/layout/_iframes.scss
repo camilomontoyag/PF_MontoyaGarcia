@@ -1,0 +1,33 @@
+.caja1{
+    width: 500px;
+    background-color:$secondary-color;
+    border: 1px solid $secondary-color;
+    margin: 20px;
+    & iframe {
+        width: 500px;
+    }
+    & h2 {
+        font-size: 30px;
+        color: $fourth-color;
+        font-weight: $fontw-navbar;
+        font-family: Rakkas;
+        text-align: center;
+    }
+}
+
+.caja2{
+    width: 500px;
+    background-color:$secondary-color;
+    border: 1px solid $secondary-color;
+    margin: 20px;
+    & iframe {
+        width: 500px;
+    }
+    & h2 {
+        font-size: 30px;
+        color: $primary-color;
+        font-weight: $fontw-navbar;
+        font-family: Rakkas;
+        text-align: center;
+    }
+}

@@ -1,0 +1,9 @@
+.navbar a {
+    color: $color-text;
+    text-decoration: $decoration-navbar;
+    font-weight: $fontw-navbar;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid $primary-color ;
+}

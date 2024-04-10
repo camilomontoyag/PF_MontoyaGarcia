@@ -1,0 +1,18 @@
+.botoncatalogo{
+    background-color: $primary-color;
+    height: 25px;
+    width: 100px;
+    font-family: BebasNeu;
+    color: $terciary-color;
+    font-weight: $fontw-navbar;
+    border-radius: 20px;
+    border: none;
+}
+
+#contact button{
+    background-color: $primary-color;
+    color: $terciary-color;
+    font-weight: $fontw-navbar;
+    margin-bottom: 20px;
+    border-color: $primary-color;
+}
